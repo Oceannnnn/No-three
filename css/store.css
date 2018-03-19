@@ -1,0 +1,121 @@
+/*<!--店铺开始-->*/
+#store .store_1 .sto_1{
+    padding: 14px 20px 10px 20px;
+    background: url(../images/store_05.jpg) no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#store .store_1 .sto_1 i{
+	float: left;
+    display: inline-block;
+    background: url(../images/store_08.jpg) no-repeat;
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+}
+#store .store_1 .st_01{
+	float: right;
+    padding: 5px 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+#store .store_1 .sto_2 li{
+	    float: left;
+    width: 25%;
+    text-align: center;
+}
+#store .store_1 .sto_2 a{
+    padding: 5% 8%;
+    background: #e6e3e3;
+    border-radius: 50px;
+    border: 1px solid #e6e3e3;
+}
+#store .store_1 .sto_2 a.on{
+	background: #fff;
+	color: #FF689B;
+	 border: 1px solid #FF689B;
+	
+}
+/*优惠劵*/
+#store_1 .st_1{
+	background: #58C79C;
+}
+#store_1 .st_2{
+	background: #FF679A;
+}
+#store_1 .st_3{
+	background: #42C1F8;
+}
+#store_1 a{
+	    padding: 5px;
+    color: #fff;
+    margin-right: 9px;
+}
+.dropdown-menu{
+	    left: 6px;   
+	    min-width: 120px;
+}
+/*<!--最后开始-->*/
+#footS .me{
+	background: url(../images/store_96.jpg);
+	background-size: cover;
+}
+#footS .g_W{
+	background: url(../images/1-个人中心_53.jpg);
+	background-size: cover;
+}
+#footS .col-xs-4,.col-xs-2{
+	padding: 0px;
+}
+#footS .foot_1{
+	    padding: 15px 0px;
+    background: #FD95B8;
+    color: #fff;
+}
+#footS .foot_3{
+	    border-right: 1px solid #d8d1d1;
+}
+#footS .foot_2{
+	    padding: 15px 0px;
+    background: #FF679A;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+	#store .store_1 .sto_2 a{
+		padding: 5px 25px;
+	}
+	#store_1 a{
+		padding: 5px 30px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+	#store .store_1 .sto_2 a{
+		padding: 5px 25px;
+	}
+	#store_1 a{
+		padding: 5px 30px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	#store .store_1 .sto_2 a{
+		padding: 5px 25px;
+	}
+	#store_1 a{
+		padding: 5px 30px;
+	}
+ }

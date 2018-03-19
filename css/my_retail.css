@@ -1,0 +1,20 @@
+/*<!--我的分销开始-->*/
+#Retail .retail_1{
+	background: #FB7574;
+}
+#Retail .retail_1 .re_01 a{
+	padding: 3px 10px;
+    background: #fff;
+    color: #FB7574;
+    float: right;
+}
+#Retail .retail_2 li{
+	    padding: 0 10px;
+    margin: 12px 0;
+    border-right: 1px solid #f3f3f3;
+    width: 50%;
+    float: left;
+}
+#Retail .retail_2 li.on{
+	border-right: none;
+}

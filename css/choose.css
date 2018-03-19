@@ -1,0 +1,156 @@
+/*选择规格*/
+#choose{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+#choose .choose_1{
+	background: #5B655C;
+	opacity: 0.5;
+	height: 30%;
+}
+#choose .choose_2{
+	position: relative;
+	background: #fff;
+	height: 70%;
+}
+#choose .choose_2 .cs_1{
+    margin-top: -40px;
+    margin-left: 20px;
+    width: 30%;
+}
+#choose .choose_3 .ch{
+	padding: 3px 15px;
+    border: 1px solid #f3f3f3;
+    background: #f3f3f3;
+    border-radius: 25px;
+}
+#choose .choose_3 a.ch_1{
+	border: 1px solid #FF689B;
+	background: #fff;
+	color: #FF689B;
+}
+#choose .choose_4{
+	border-top: 1px solid #f3f3f3;
+}
+#choose .choose_4 .form-control{
+    width: 55px;
+    border: 1px solid #f3f3f3;
+    height: 29px;
+    background: #f3f3f3;
+}
+#choose .choose_4 .input-group-addon{
+	width: 0;
+	border: 1px solid #FF689B;
+    background: #fff;
+    color: #FF689B;
+    border-radius: 40%;
+    cursor: pointer;
+}
+#choose .choose_5{
+	height: 10%;
+	margin-top: 10px;
+	text-align: center;
+	background: #fff;
+}
+#choose .choose_5 a{
+	    border-radius: 35px;
+    background: #f3f3f3;
+    padding: 10px 100px;
+    color: #FF689B;
+}
+
+#bodyT{
+	height: 400px;
+	overflow: hidden;
+}
+#bodyT img{
+	width: 100%;
+}
+
+
+
+
+
+
+@media (min-width: 768px) { 
+	#choose .choose_2 .cs_1{
+		width: 12%;
+	}
+	#choose .choose_5{
+		margin-top: 0px;
+	}
+	#choose .choose_1{
+	height: 46%;
+}
+	#choose .choose_2{
+	height: 55%;
+}
+#bodyT{
+	height: 613px;
+ }
+ #choose .choose_4{
+ 	margin-top: 0px;
+ }
+ body{
+ 	font-size: 14px;
+ }
+ 	#bodyT img{
+	width: 100%;
+	height: 680px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+#choose .choose_2 .cs_1{
+		width: 9%;
+	}
+		#choose .choose_5{
+		margin-top: 0px;
+	}
+		#choose .choose_5{
+		margin-top: 0px;
+	}
+	#choose .choose_1{
+	height: 46%;
+}
+	#choose .choose_2{
+	height: 55%;
+}
+	#bodyT img{
+	width: 100%;
+	height: 784px;
+}
+#bodyT{
+	height: 500px;
+ }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	#choose .choose_2 .cs_1{
+		width: 7%;
+	}
+		#choose .choose_5{
+		margin-top: -10px;
+	}
+		#choose .choose_5{
+		margin-top: 0px;
+	}
+	#choose .choose_1{
+	height: 46%;
+}
+	#choose .choose_2{
+	height: 55%;
+}
+	#bodyT img{
+	width: 100%;
+	height: 784px;
+}
+#bodyT{
+	height: 500px;
+ }
+ }

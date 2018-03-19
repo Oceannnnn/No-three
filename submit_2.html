@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>确定订单（无地址）</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/submit.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			
+			<!--收货地址开始-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="address">
+						<i></i>
+						<span class="fl pt30">您还没有添加收货地址哦~</span>
+						<a href="address_2.html" class="fl pk add pt30">请添加</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<!--收货地址下-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="address_1">
+						<div class="price_1 p5 bgw mt10 oh">
+							<i class="ad_1 p_1"></i>
+							<span class="fl p10">支付方式</span>
+							<span class="fr c9 p10">微信支付</span>
+						</div>
+						<div class="price_1 p5 bgw mt10 oh">
+							<i class="ad_1 p_2"></i>
+							<span class="fl p10">配送信息</span>
+							<div class="ad_2">
+								<p>配送方式：送货上门</p>
+								<p>配送费用：￥5.00</p>
+							</div>
+						</div>
+						<div class="price_1 p5 bgw mt10 oh">
+							<i class="ad_1 p_3"></i>
+							<a href="bill.html"><span class="fl p10">发票信息</span></a>
+							<div class="ad_2">
+								<p>发票类型：普通发票</p>
+								<p>发票抬头：个人</p>
+							</div>
+						</div>
+						<div class="price_1 p5 bgw mt10 oh">
+							<i class="ad_1 p_4"></i>
+							<span class="fl p10">商品清单</span>
+							<div class="ad_3 fl tub">
+								<div class="ad_01 bor1 oh p5">
+									<i></i>
+									<div class="ad_01_1 p10">
+										<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+										<p class="c9 mt5">
+											<span>x2</span>
+											<span>规格：</span>
+											<span>“白色”“S”</span>
+										</p>
+										<p class="pk">￥200.00</p>
+									</div>
+								</div>
+								<div class="ad_01 bor1 oh p5">
+									<i></i>
+									<div class="ad_01_1 p10">
+										<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+										<p class="c9 mt5">
+											<span>x2</span>
+											<span>规格：</span>
+											<span>“白色”“S”</span>
+										</p>
+										<p class="pk">￥200.00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="price_1 p5 bgw mt10 oh">
+							<i class="ad_1 p_5"></i>
+							<span class="fl p10">使用积分</span>
+							<a href="javascript:;" class="or_n">
+								<span class="fr p10 use">
+									<span></span>
+								</span>
+							</a>
+							<div class="ad_2 ad_21">
+								<p>
+									<span class="fl p5">可用积分2000，抵购￥20.00</span>
+									<span class="a_1">200</span>
+								</p>
+							</div>
+						</div>
+						<div class="price_1 p5 bgw mt10 oh pr">
+							<i class="ad_1 p_6"></i>
+							<span class="fl p10">使用优惠劵</span>
+							<a href="my_coupons.html" class="y_H fr p10 use_1"
+								20元优惠券
+								<span>></span>
+							</a>
+							<!--<div class="you_h">
+								<p><a href="">20元优惠券</a></p>
+								<p><a href="">20元优惠券</a></p>
+								<p><a href="">20元优惠券</a></p>
+							</div>-->
+						</div>
+						<div class="price_2 p10 bgw mt10 oh c9">
+							<div class="fl">
+								<p>商品金额：￥200.00</p>
+								<p>积分抵购：￥20.00</p>
+								<p>运费：￥5.00</p>
+								<p>优惠劵：￥20.00</p>
+							</div>
+							<p class="fl pl20">商品数量：3件</p>
+						</div>
+						<div class="price_3 p10 bgw mt10 oh">
+							<div class="price_00 mt15 fl">
+								<span>应付金额：</span>
+								<span>￥200.00</span>
+							</div>
+							<a href="pay_2.html">结算（2）</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var sta = 1;
+	$('.price_1 .or_n').click(function(){
+		if (sta == 1) {
+			$(this).find('.use').addClass('on');
+			$('.ad_21').hide();
+			sta=2;
+		} else{
+			$(this).find('.use').removeClass('on');
+			$('.ad_21').show();
+			sta=1;
+		}
+	})
+</script>
+

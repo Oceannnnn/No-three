@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>申请售后（填写说明）</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/evaluation.css"/>
+	</head>
+	<body class="bgw">
+		<div class="container-fluid p0">
+			
+			<!--评价开始-->
+			<div id="apply_1">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="ad_3 fl tub bgw">
+							<div class="ad_01 p10">
+								<div class="lei">
+									<span>类型：</span>
+									<div class="btn-group">
+									  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    <span class="lei_1">退货退款</span>
+									    <div class="jt">
+									    	<span class="caret"></span>
+									    </div>
+									  </button>
+									  <ul class="dropdown-menu">
+									    <li><a href="javascript:;">仅退款</a></li>
+									     <li role="separator" class="divider"></li>
+									    <li><a href="javascript:;">退货退款</a></li>
+									     <li role="separator" class="divider"></li>
+									    <li><a href="javascript:;">换货</a></li>
+									     <li role="separator" class="divider"></li>
+									    <li><a href="javascript:;">维修</a></li>
+									  </ul>
+									</div>
+								</div>
+								<div class="eval_2 tub fl mt10">
+									<textarea placeholder="请输入申请理由（200字以内" maxlength="200"></textarea>
+								</div>
+								<div class="eval_3 tub fl">
+									<div class="eval_01">
+										<input type="file" />
+										<i></i>
+										<p>最多3张</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			
+			<!--最后-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="text-center mt50">
+						<input type="submit" value="提交" class="last"/>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+	$('.dropdown-menu a').click(function(){
+		var a = $(this).html();
+		$('.lei_1').html(a);
+		
+	})
+</script>
+

@@ -1,0 +1,24 @@
+/*<!--流行风格开始-->*/
+#popular .popular_1 i{
+	display: inline-block;
+	float: left;
+	background: url(../images/recommend_03.jpg) no-repeat;
+	width: 25px;
+	height: 25px;
+	background-size: 25px;
+}
+#popular .popular_2 a{
+	display: inline-block;
+    margin-top: 10px;
+    padding: 5px 17px;
+    /* width: 16%; */
+    background: #ffffff;
+    color: #b1b1b1;
+    border: 1px solid #b1b1b1;
+    border-radius: 15px;
+}
+#popular .popular_2 .active{
+	background: #FF689B;
+	border: 1px solid #FF689B;
+	color: #fff;
+}

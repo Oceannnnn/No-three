@@ -1,0 +1,28 @@
+/*<!--商品评论-->*/
+#evaluate .evaluate_1 i.head_1{
+    float: left;
+    display: inline-block;
+    background: url(../images/evaluate_03.jpg);
+    width: 55px;
+    height: 55px;
+    background-position: -2px 0px;
+    border-radius: 50%;
+    background-size: 59px;
+}
+#evaluate .evaluate_1 .eva_1_1{
+	    padding: 19px 5px 0px 70px;
+}
+#evaluate .evaluate_1 .ev_1 i{
+    display: inline-block;
+    background: url(../images/particulars_02.jpg);
+    width: 60px;
+    height: 60px;
+    background-size: 114px;
+   
+}
+#evaluate .evaluate_1 .ev_1 i.ev_1_01{
+	 background-position: -6px -2px;
+}
+#evaluate .evaluate_1 .ev_1 i.ev_1_02{
+	 background-position: -16px -42px;
+}

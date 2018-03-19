@@ -1,0 +1,99 @@
+/*<!--支付失败-->*/
+#Pay{
+	padding-top: 50px;
+}
+#Pay .p_1{
+	    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+}
+#Pay .p_1 p{
+	 float: left;
+    width: 45%;
+    padding-bottom: 40px;
+}
+#Pay .pay_1{
+	    float: left;
+    color: #FF689B;
+    padding: 35px 0px 0px 11px;
+    width: 48%;
+}
+#Pay .p_2 a{
+    display: block;
+    padding: 5px 50px;
+    border-radius: 41px;
+    border: 1px solid #FF689B;
+    background: #fff;
+    color: #FF689B;
+    width: 50%;
+    margin-left: 25%;
+}
+#Pay .p_3{
+    border-radius: 15px;
+    padding: 0px 10px;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    text-align: start;
+    background: #f3f3f3;
+}
+#Pay .p_3 a{
+	padding: 10px;
+}
+#Pay_1{
+	margin-top: 100px;
+}
+#Pay_1 .pay_1{
+	line-height: 30px;
+}
+#Pay_1 p.pay_01{
+	width: 50%;
+	margin: 0 auto;
+    /*padding-bottom: 40px;*/
+}
+
+#Pay_1 .p_2 .btn_1{
+	padding: 8px 35px;
+    color: #81D3F0;
+    border-radius: 16px;
+    border: 1px solid #81D3F0;
+}
+#Pay_1 .p_2 .btn_2{
+	padding: 8px 25px;
+    color: #FF689B;
+    border-radius: 16px;
+    border: 1px solid #FF689B;
+}
+
+
+
+
+@media (min-width: 768px) { 
+	#Pay .p_1 p{
+		width: 20%;
+	}
+	#Pay_1 p.pay_01{
+		width: 20%;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+#Pay .p_1 p{
+		width: 20%;
+	}
+	#Pay_1 p.pay_01{
+		width: 20%;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	#Pay .p_1 p{
+		width: 20%;
+	}
+	#Pay_1 p.pay_01{
+		width: 20%;
+	}
+ }

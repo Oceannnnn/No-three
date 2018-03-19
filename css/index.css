@@ -1,0 +1,317 @@
+/*返回*/
+#fan{
+	background: #393A3E;
+}
+#fan .g_r{
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+	}
+#fan .g_r img{
+	width: 100%;
+	}
+/*<!--搜索开始-->*/	
+
+/*定位*/
+#heads .search1 .input a{
+    background-color: #FF689B;
+    border-radius: 50px;
+    position: absolute;
+    height: 34px;
+    padding: 5px 15px 0px 10px;
+    display: inline-block;
+}
+#heads .input{
+	position: relative;
+}
+#heads .input input{
+	outline: none;
+	    width: 100%;
+    border: 1px solid #FF689B;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 6px 0px 6px 64px;
+}
+#heads .input a img{
+	    width: 25px;
+}
+#heads .del{
+	    color: #FF689B;
+    position: absolute;
+    right: 29px;
+    top: 6px;
+}
+#search table{
+	width:100% ;
+}
+#search .td_01{
+	text-align: center;
+	width: 60px;
+}
+#search .td_02{
+	text-align: center;
+	padding-left:10px ;
+	width: 50px;
+}
+#search .td_02 img{
+	width: 72%;
+}
+#search .td_01 i{
+	float: left;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/store_03.jpg) no-repeat;
+	    background-size: 25px;
+}
+#search .wei{
+	margin-top: 2px;
+}
+#search .input a{
+    background-color: #FF689B;
+    border-radius: 50px;
+    position: absolute;
+    height: 34px;
+    padding: 5px 15px 0px 10px;
+    display: inline-block;
+}
+#search .input input{
+	outline: none;
+	    width: 100%;
+    border: 1px solid #FF689B;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 6px 0px 6px 64px;
+}
+#search .input a img{
+	    width: 25px;
+}
+#search .input i{
+    display: inline-block;
+    width: 20px;
+    position: absolute;
+    background: #ffffff;
+    height: 32px;
+    left: 95px;
+    top: 1px;
+}
+/*轮播图开始*/
+#bodyl .lun img{
+	width: 100%;
+}
+/*明星同款开始*/
+#star .sta1 a{
+	    width: 50%;
+	    float: left;
+    display: inline-block;
+}
+#star .sta1 img{
+	 width: 99%;
+}
+#star2 .sta2 a{
+	    width: 100%;
+    display: inline-block;
+}
+#star2 .sta2 img{
+	 width: 100%;
+}
+
+/*<!--秒杀开始-->*/
+#seckill .kill_1 i{
+	width: 30px;
+	height: 25px;
+	background: url(../images/store_27.jpg) no-repeat;
+	display: inline-block;
+	background-size: 25px;
+}
+#seckill .kill_1 .k_1{
+	padding: 0px 0px 0px 10px;
+}
+#seckill .kill_1 .k_1 .d_j{
+	display: inline-block;
+    padding: 2px;
+    background: #dcd3d3;
+}
+#seckill .kill_1 .k_2{
+	float: right;
+	padding: 5px;
+	background: #FF689B;
+	border-radius: 50px;
+	color: #fff;
+}
+#seckill .kill_2 .k_1{
+	width: 33.33%;
+	padding: 5px;
+	float: left;
+}
+#seckill .kill_2 .k_1 img{
+	width: 100%;
+}
+#seckill .kill_3 img{
+	width: 100%;
+}
+/*<!--发现好店开始-->*/
+#find_g .find_1 i{
+    width: 35px;
+    height: 30px;
+    background: url(../images/store_50.jpg) no-repeat;
+    display: inline-block;
+    background-size: 30px;
+}
+#find_g .find_2{
+		float: right;
+	padding: 5px;
+	background: #FF689B;
+	border-radius: 50px;
+	color: #fff;
+}
+#find_g .F_2 li{
+	text-align: center;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	width: 20%;
+	    padding: 5px;
+}
+#find_g .F_2 li p.F_1{
+    padding: 3px 0px;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    margin-top: -10px;
+    margin-right: -12px;
+}
+#find_g .F_2 li .p_1{
+	 background: #F9BB1B;
+}
+#find_g .F_2 li .p_2{
+	 background: #F97C78;
+}
+#find_g .F_2 li .p_3{
+	 background: #65CB99;
+}
+#find_g .F_2 li .p_4{
+	 background: #54C0F0;
+}
+#find_g .F_2 li .p_5{
+	 background: #D7D5D6;
+}
+#find_g .F_2 .F_11{
+    margin-top: 5px;
+}
+#find_g img{
+   border: 1px solid #ccc;	
+}
+ 
+/*猜你喜欢开始*/
+#guess .heng{
+	margin: 0 auto;
+	height: 2px;
+	width: 80%;
+	background: #E5E5E5;
+}
+#guess .g_1 span{
+color: #C0C0C0;
+    width: 88px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -12px;
+    background: #F3F3F3;
+    padding: 1px 0px 0px 14px;
+}
+#guess1{
+	margin-bottom: 55px;
+}
+#guess1 .col-xs-6{
+	padding: 5px;
+}
+#guess1 .col-xs-6 .gy_1{
+	    display: block;
+    padding: 5px;
+    background: #fff;
+}
+.back .gy_2{
+	position: fixed;
+	bottom: 60px;
+    position: fixed;
+    right: 5px;
+}
+.back .gy_2 img{
+	    position: absolute;
+    bottom: 10px;
+    right: 11px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 1px 1px #ccc;
+}
+/*<!--最后开始-->*/
+#footS .me{
+	background: url(../images/store_96.jpg);
+	background-size: cover;
+}
+#footS .sy{
+	background: url(../images/store_99.jpg);
+	background-size: cover;
+}
+#footS .f_l{
+	background: url(../images/1-个人中心_46-49.jpg);
+	background-size: cover;
+}
+#footS .g_W{
+	background: url(../images/1-个人中心_53.jpg);
+	background-size: cover;
+}
+
+.pd {
+     padding: 0 17px; 
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+.back .gy_2 img{
+	width: 60px;
+}
+#guess .g_1 span{
+	    width: 107px;
+    margin-top: -17px;
+}
+#search .wei{
+	font-size: 14px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+#guess .g_1 span{
+	    width: 107px;
+    margin-top: -17px;
+}
+.back .gy_2 img{
+	width: 60px;
+}
+#search .wei{
+	font-size: 14px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+.back .gy_2 img{
+	width: 60px;
+}
+#guess .g_1 span{
+	    width: 107px;
+    margin-top: -17px;
+}
+#search .wei{
+	font-size: 14px;
+}
+ }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>收货地址详情</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/address.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			<!--地址详情-->
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="Address" class="bgw">
+						<div class="address_01 bor1 p10 oh">
+							<p class="mt10">
+								<span>张三</span>
+								<span>13800138000</span>
+							</p>
+							<p class="mt5">
+								广东省
+								广州市
+								天河区
+								中山大道西191号南方医科大学附属三院
+							</p>
+							<div class="add_01 oh p5">
+								<div class="fl yixia">
+									<a href="javascript:;" class="bodyC">
+										<i class="mo active"></i>
+										<span>默认地址</span>
+									</a>
+								</div>
+								<div class="fr">
+									<a href="javascript:;" class="xiu_1">
+										<i class="xiu"></i>
+										<span>修改</span>
+									</a>
+									<a href="javascript:;" class="shan_1">
+										<i class="shan"></i>
+										<span>删除</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="address_01 bor1 p10 oh">
+							<p class="mt10">
+								<span>张三</span>
+								<span>13800138000</span>
+							</p>
+							<p class="mt5">
+								广东省
+								广州市
+								天河区
+								中山大道西191号南方医科大学附属三院
+							</p>
+							<div class="add_01 oh p5">
+								<div class="fl yixia">
+									<a href="javascript:;" class="bodyC">
+										<i class="mo"></i>
+										<span>默认地址</span>
+									</a>
+								</div>
+								<div class="fr">
+									<a href="javascript:;" class="xiu_1">
+										<i class="xiu"></i>
+										<span>修改</span>
+									</a>
+									<a href="javascript:;" class="shan_1">
+										<i class="shan"></i>
+										<span>删除</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			
+			
+			
+			<!--新增地址-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="new_add" class="text-center mt50">
+						<a href="address_2.html">新增地址</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	var cc = 1;
+	$('.bodyC').click(function(){
+		 if (cc==1) {
+          $(this).find('.mo').addClass('active').parents('.address_01').siblings('.address_01').find('.mo').removeClass('active');
+          cc = 2;
+        }else {
+           $(this).find('.mo').removeClass('active');
+          cc = 1;
+        }
+		
+	})
+	$('.shan_1').click(function(){
+		$(this).parents('.address_01').hide();
+	})
+</script>

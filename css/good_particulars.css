@@ -1,0 +1,129 @@
+/*<!--轮播图-->*/
+#bodyl .index{
+    width: 40px;
+    height: 40px;
+    padding: 5px 8px;
+    border-radius: 50px;
+    background: #636967;
+    position: absolute;
+    top: 25px;
+    position: absolute;
+    left: 28px;
+}
+#bodyl .index i{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/particulars_04.jpg) no-repeat;
+    background-size: 25px;
+}
+/*<!--文字描述-->*/
+#describe .describe_1{
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+/*<!--选择产品规格-->*/
+#size .tu1{
+	    float: right;
+       width: 30px;
+    height: 30px;
+}
+#size .shop_1{
+	width: 60px;
+	height: 80px;
+}
+#size .shop_1 p{
+    background: #FABA1A;
+    color: #fff;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding: 1px 20px 1px 10px;
+    position: absolute;
+    bottom: 4px;
+    right: -17px;
+
+}
+#size .shop_3{
+	padding: 5px 20px;
+    border: 1px solid #FF689B;
+    border-radius: 24px;
+}
+#size .shop_4 a{
+	    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    text-decoration: underline;
+    color: #999;
+}
+/*继续滑动*/
+#Slide .heng{
+	margin: 0 auto;
+	height: 2px;
+	width: 80%;
+	background: #E5E5E5;
+}
+#Slide .g_1 span{
+    color: #C0C0C0;
+    width: 128px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -12px;
+    background: #F3F3F3;
+    padding: 1px;
+}
+/*<!--固定-->*/
+#fixation .sc{
+	background: url(../images/particulars_05.jpg);
+	background-size: cover;
+}
+#fixation .sc.active{
+	background: url(../images/eval_11.jpg);
+	background-size: cover;
+}
+#fixation .me{
+	background: url(../images/1-个人中心_53.jpg);
+	background-size: cover;
+}
+#fixation .fix_3{
+	padding: 5px;
+}
+#fixation .fix_1{
+    background: #FD95B8;
+    padding: 20px 0px;
+    color: #fff;
+}
+#fixation .fix_2{
+    background:#FF679A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+	#size .shop_1 p{
+		font-size: 14px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+	#size .shop_1 p{
+		font-size: 14px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	#size .shop_1 p{
+		font-size: 14px;
+	}
+ }

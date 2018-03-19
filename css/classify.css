@@ -1,0 +1,33 @@
+/*<!--分类开始-->*/
+#classify{
+	margin-bottom: 80px;
+}
+#classify li{
+	float: left;
+	text-align: center;
+	width: 25%;
+	padding: 3px;
+}
+#classify .i_p{
+	margin-top: 3px;
+}
+a:hover{
+	color: #333;
+}
+/*<!--最后开始-->*/
+#footS .me{
+	background: url(../images/store_96.jpg);
+	background-size: cover;
+}
+#footS .sy{
+	background: url(../images/1-个人中心_44-47.jpg);
+	background-size: cover;
+}
+#footS .f_l{
+	background: url(../images/classify_41.jpg);
+	background-size: cover;background-position: -1px;
+}
+#footS .g_W{
+	background: url(../images/1-个人中心_53.jpg);
+	background-size: cover;
+}

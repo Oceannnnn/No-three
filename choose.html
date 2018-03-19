@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>选择规格</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/choose.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			
+			
+			<div id="bodyT">
+				<div class="row">
+					<div class="col-xs-12">
+						<img src="images/particulars_02.jpg"/>
+					</div>
+				</div>
+			</div>
+			
+			<!--选择规格-->
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="choose">
+						<div class="choose_1"></div>
+						<div class="choose_2">
+							<div class="fl cs_1">
+								<img src="images/particulars_02.jpg" class="tub"/>
+							</div>
+							<div class="fl cs_2 p10">
+								<p class="pk">
+									<span>￥</span>
+									<span class="fs16">178.00</span>
+								</p>
+								<p>库存88件</p>
+								<p>
+									已选
+									“<span class="wenzi">白色</span>”
+									“<span class="size">S</span>”
+								</p>
+							</div>
+							<div class="fr p10 cs_3">
+								<span class="glyphicon glyphicon-remove c9" aria-hidden="true"></span>
+							</div>
+							<div class="choose_3 p10 fl tub">
+								<p class="fs16 p5 pb15">颜色</p>
+								<a href="javascript:;" class="ch_1 ch ys_1">白色</a>
+								<a href="javascript:;" class="ch ys_1">红色</a>
+								<a href="javascript:;" class="ch ys_1">粉色</a>
+							</div>
+							<div class="choose_3 p10 fl tub">
+								<p class="fs16 p5 pb15">尺码</p>
+								<a href="javascript:;" class="ch_1 ch cm_1">S</a>
+								<a href="javascript:;" class="ch cm_1">M</a>
+								<a href="javascript:;" class="ch cm_1">L</a>
+							</div>
+							<div class="choose_4 p10 fl tub mt30">
+								<p class="pt10 fs16 fl">购买数量</p>
+								<div class="form-group fr pt10">
+								    <div class="input-group">
+								      <div class="input-group-addon c3 jian">-</div>
+								      <input type="text" class="form-control text-center" id="exampleInputAmount" placeholder="1">
+								      <div class="input-group-addon c3 jia">+</div>
+								    </div>
+								</div>
+							</div>
+							<div class="choose_5 fl tub">
+								<a href="">确定</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $('.cs_3').click(function(){
+  	location.href = 'good_particulars.html'
+  })
+  	var a = 1;
+	$('.jia').click(function(){
+		a++;
+		$(this).siblings('.text-center').prop('placeholder',a);
+		
+	})
+	$('.jian').click(function(){
+		a--;
+		if(a<1){
+			a=1;
+		}
+		$(this).siblings('.text-center').prop('placeholder',a);
+		
+	})
+	$('.cm_1').click(function(){
+		$(this).addClass('ch_1').siblings('a').removeClass('ch_1');
+		var htmls = $(this).html();
+		$('.size').html(htmls);
+	})
+	$('.ys_1').click(function(){
+		$(this).addClass('ch_1').siblings('a').removeClass('ch_1');
+		var htmls = $(this).html();
+		$('.wenzi').html(htmls);
+	})
+	
+	
+</script>
+
+

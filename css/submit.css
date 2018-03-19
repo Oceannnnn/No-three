@@ -1,0 +1,167 @@
+/*<!--收货地址开始-->*/
+#address{
+    overflow: hidden;
+    padding: 20px;
+    background: url(../images/sub.jpg) no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#address i{
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url(../images/submit_01_03.jpg) no-repeat;
+    background-size: 60px 60px;
+}
+#address .add{
+	text-decoration: underline;
+}
+#address .add_1{
+	line-height: 26px;
+}
+#address .add_1 .add_01{
+	    background: #F15352;
+    padding: 2px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+/*<!--收货地址下开始-->*/
+#address_1 .price_1 .ad_1{
+    float: left;
+    display: inline-block;
+    background: url(../images/submit_05.jpg) no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+}
+#address_1 .price_1 .p_1{
+    background-position: 0px 7px;
+}
+#address_1 .price_1 .p_2{
+    background-position: 0px -63px;
+}
+#address_1 .price_1 .ad_2{
+	width: 100%;
+	float: left;
+	background: #f3f3f3;
+	padding: 10px;
+	line-height: 25px;
+}
+#address_1 .price_1 .p_3{
+    background-position: 0px -224px;
+}
+#address_1 .price_1 .p_4{
+    background-position: 0px -388px;
+}
+#address_1 .price_1 .ad_3{
+	border-top: 1px solid #e5e5e5;
+}
+#address_1 .price_1 .ad_3 .a_1{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#address_1 .price_1 .ad_3 .ad_01 i{
+	float: left;
+	margin-right: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(../images/particulars_02.jpg) no-repeat;
+    background-position: -16px 10px;
+    background-size: 117px;
+}
+#address_1 .price_1 .p_5{
+    background-position: 0px -678px;	
+}
+#address_1 .price_1 .use{
+    background: #FF689B;
+    border-radius: 29px;
+    padding: 6px 2px 6px 36px;
+}
+#address_1 .price_1 .use span{
+    background: #fff;
+    border-radius: 29px;
+    padding: 5px 15px;
+}
+#address_1 .price_1 .use.on{
+	background: #8c8686;
+    border-radius: 29px;
+    padding: 6px 36px 6px 2px;
+}
+.ad_21 .a_1{
+	float: right;
+	background: #fff;
+	padding: 5px 10px;
+}
+#address_1 .price_1 .p_6{
+    background-position: 0px -813px;	
+}
+#address_1 .price_1 .use_1{
+	float: right;
+	background: #f3f3f3;
+    padding: 10px;
+}
+#address_1 .price_1 .use_1 span{
+	padding: 5px 10px;
+    background: #fff;
+}
+#address_1 .price_1 .you_h{
+	    position: absolute;
+    background: #f3f3f3;
+    padding: 10px;
+    bottom: -67px;
+    z-index: 7;
+    right: 41px;
+}
+#address_1 .price_3 a{
+    background: url(../images/submit_02.jpg) no-repeat;
+    display: inline-block;
+    float: right;
+    width: 100px;
+    color: #fff;
+    height: 50px;
+    padding: 14px 0px 0px 24px;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+	#address{
+		height: 160px;
+		    padding-left: 3%;
+	}
+	#address .add_1{
+		margin-top: 26px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+	#address{
+		height: 160px;
+		    padding-left: 3%;
+	}
+	#address .add_1{
+		margin-top: 26px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	#address{
+		height: 160px;
+		    padding-left:3%;
+	}
+	#address .add_1{
+		margin-top: 26px;
+	}
+}

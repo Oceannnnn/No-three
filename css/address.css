@@ -1,0 +1,97 @@
+/*<!--地址详情-->*/
+#Address .address_01 .mo{
+    display: inline-block;
+    width: 20px;
+    background: #888383;
+    height: 20px;
+    border-radius: 10px;
+        float: left;
+    margin-right: 6px;
+}
+#Address .address_01 .mo.active{
+	background: url(../images/address_03.jpg) no-repeat;
+    background-size: 26px;
+    background-position: -3px;
+}
+#Address .address_01 .xiu{
+	display: inline-block;
+	background: url(../images/address_06.jpg) no-repeat;
+    width: 22px;
+    height: 20px;
+    background-size: 22px;
+    float: left;
+    margin-right: 2px;
+}
+#Address .address_01 .yixia{
+	margin-top: 3px;
+}
+#Address .address_01 .xiu_1 span{
+	float: left;
+	margin-top: 1px;
+	margin-right: 10px;
+}
+#Address .address_01 .shan_1 span{
+	float: left;
+	margin-top: 1px;
+}
+#Address .address_01 .shan{
+	display: inline-block;
+	background: url(../images/address_08.jpg) no-repeat;
+    width: 22px;
+    height: 20px;
+    background-size: 22px;
+    float: left;
+    margin-right: 2px;
+}
+#Address .add_01{
+	background: #F7F7F7;
+	border-radius: 2px;
+}
+a:hover, a:focus {
+    color: #333;
+}
+.form-control{
+	    border: none;
+    border-bottom: 1px solid #ccc;
+     border-radius: 0px; 
+}
+.address .beijing td{
+  padding-top: 4px;
+  padding-left: 8px;
+}
+/*<!--新增地址-->*/
+#new_add a{
+    display: block;
+    padding: 11px 80px;
+    width: 60%;
+    background: white;
+    border: 1px solid #FF689B;
+    color: #FF689B;
+    border-radius: 26px;
+    margin-left: 20%;
+}
+#new_add input{
+    padding: 11px 80px;
+    background: white;
+    border: 1px solid #FF689B;
+    color: #FF689B;
+    border-radius: 26px;
+    
+}
+#new_add input.del{
+    padding: 11px 34px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 26px;
+}
+#new_add input.save{
+	padding: 11px 50px;
+    background: white;
+    border: 1px solid #FF689B;
+    color: #FF689B;
+    border-radius: 26px;
+}
+table{
+	width: 100%;
+}

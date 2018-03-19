@@ -1,0 +1,184 @@
+
+/*<!--逛逛-->*/
+#search_w a{
+	color: #3FB3DE;
+}
+
+#search_w .s_1{
+	width: 38%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.shan_2{
+	    float: right;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+/*选择*/
+#cart .form-control{
+    width: 55px;
+    border: 1px solid #f3f3f3;
+    height: 29px;
+    background: #f3f3f3;
+}
+#cart .input-group-addon{
+	width: 0;
+	border: 1px solid #FF689B;
+    background: #fff;
+    color: #FF689B;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#cart .ad_3 .ad_01 i.cart_1{
+	float: left;
+	margin-right: 10px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(../images/particulars_02.jpg) no-repeat;
+    background-position: -16px 10px;
+    background-size: 117px;
+}
+.ad_01{
+	position: relative;
+}
+#cart .ad_3 .a_1{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.mo{
+    float: left;
+    margin-top: 37px;
+    display: inline-block;
+    width: 20px;
+    background: #888383;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+.mo.active{
+	background: url(../images/address_03.jpg) no-repeat;
+    background-size: 26px;
+    background-position: -3px;
+}
+.shan_1{
+	position: absolute;
+    bottom: 6%;
+    right: 4%;
+}
+.all .mo{
+	margin-top: 0px;
+	margin-top: 10px;
+}
+#cart .shan{
+    display: inline-block;
+    background: url(../images/pay_02.jpg) no-repeat;
+    width: 23px;
+    height: 23px;
+    background-size: 22px;
+}
+/*合计*/
+#bodyH .price_3 a{
+    background: url(../images/submit_02.jpg) no-repeat;
+    display: inline-block;
+    float: right;
+    width: 85px;
+    color: #fff;
+    height: 46px;
+    padding: 13px 0px 0px 9px;
+    background-size: 100% 100%;
+}
+/*<!--合计开始-->*/
+#bodyH{
+	    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 49px;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+/*<!--最后开始-->*/
+#footS .me{
+	background: url(../images/store_96.jpg);
+	background-size: cover;
+}
+#footS .sy{
+	background: url(../images/1-个人中心_44-47.jpg);
+	background-size: cover;
+}
+#footS .f_l{
+	background: url(../images/1-个人中心_46-49.jpg);
+	background-size: cover;
+}
+#footS .g_W{
+	background: url(../images/cart_07.jpg);
+	background-size: cover;
+	    background-position: -5px;
+}
+.att_1{
+    width: 60px;
+    height: 55px;
+    overflow: hidden;
+        margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+.att_1 {
+    width: 80px;
+    height: 80px;
+}
+#search_w .s_1{
+	width: 20%;
+}
+#bodyH .price_3 a{
+	    width: 125px;
+    text-align: center;
+    height: 63px;
+    padding: 18px 0px 0px 9px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+.att_1 {
+    width: 80px;
+    height: 80px;
+}
+#search_w .s_1{
+	width: 20%;
+}
+#bodyH .price_3 a{
+	    width: 125px;
+    text-align: center;
+    height: 63px;
+    padding: 18px 0px 0px 9px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+.att_1 {
+    width: 80px;
+    height: 80px;
+}
+#search_w .s_1{
+	width: 20%;
+}
+#bodyH .price_3 a{
+	    width: 125px;
+    text-align: center;
+    height: 63px;
+    padding: 18px 0px 0px 9px;
+}
+ }

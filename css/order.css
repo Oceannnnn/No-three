@@ -1,0 +1,79 @@
+#headb{
+	padding-left: 20px;
+}
+/*<!--头部开始-->*/
+#head{
+	background: #fff;
+}
+#head li{
+	width: 25%;    
+	float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    color: #333;
+}
+#head li a.on{
+	color: #FF689B;
+	border-bottom: 2px solid #FF689B;
+}
+
+a:hover{
+	color: #333;
+}
+#head li a{
+	padding: 5px;
+}
+/*身体部分*/
+#body .tou{
+	border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+#body .xia{
+	border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+#body .col-xs-12{
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+}
+#body .gg{
+	    position: relative;
+	width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+#body .gg img{
+	width: 100%;
+	height: 100%;
+}
+#body .zuo {
+	padding-left: 84px;
+}
+#body .zuo p{
+	color: #333;
+}   
+#body .suo{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#body .btn{
+	border-radius: 18px;
+    padding: 5px 18px;
+        margin-right: 8px;
+}
+#body .pay_2{
+	color: #FF689B;
+    background-color: #fff;
+    border-color: #FF689B;
+}
+#body .pay_1{
+	color: #DDDDDD;
+    background-color: #fff;
+    border-color: #DDDDDD;
+}
+#body{
+	margin-top: 55px;
+}

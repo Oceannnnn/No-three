@@ -1,0 +1,107 @@
+
+/*<!--评价开始-->*/
+.cart_2{
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    width: 68px;
+    height: 71px;
+    background: url(../images/particulars_02.jpg) no-repeat;
+    background-position: -16px 10px;
+    background-size: 95px;
+	}
+
+.eval_1 i{
+	display: inline-block;
+	background: url(../images/eval_03.jpg) repeat-x;
+    width: 22px;
+    height: 23px;
+    background-size: 25px;
+}
+input[type=file] {
+    display: block;
+    opacity: 0;
+    width: 70px;
+    position: absolute;
+    height: 100%;
+}
+.eval_1 i.on{
+	display: inline-block;
+	background: url(../images/eval_11.jpg) repeat-x;
+    width: 22px;
+    height: 23px;
+    background-size: 25px;
+}
+.eval_2 textarea{
+	    width: 100%;
+    padding: 10px;
+    background: #F2F2F2;
+    border: 1px solid #fff;
+}
+.eval_3 .eval_01{
+    background: #F2F2F2;
+    width: 70px;
+    padding: 3px 0px;
+    text-align: center;
+    color: #BFBFBF;
+    position: relative;
+}
+.eval_3 .eval_01 i{
+	display: inline-block;
+    background: url(../images/eval_07.jpg) no-repeat;
+    width: 35px;
+    height: 30px;
+    background-size: 35px;
+}
+.eval_02{
+	    margin-left: 10px;
+    margin-top: -10px;
+}
+.btn-default {
+    color: #666;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    padding: 7px 25px;
+}
+
+.jt{
+	    width: 34px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    float: right;
+    margin-left: 20px;
+}
+.caret{
+    display: inline-block;
+    text-align: center;
+    background: #ffffff;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 7px solid #f3f3f3;
+    border-right: 9px solid rgba(255, 255, 255, 0);
+    border-left: 10px solid rgba(255, 255, 255, 0);
+}
+
+
+
+
+@media (min-width: 768px) { 
+.eval_3 .eval_01{
+	width: 100px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+.eval_3 .eval_01{
+	width: 100px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+.eval_3 .eval_01{
+	width: 100px;
+}
+ }

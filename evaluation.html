@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>评价</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/evaluation.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			
+			<!--评价开始-->
+			<div id="cart">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="ad_3 fl tub bgw">
+							<div class="ad_01 bor1 oh p10">
+								<i class="cart_2"></i>
+								<div class="ad_01_1 pt10">
+									<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+									<div class="eval_1 mt15">
+										<p class="fl">评价：</p>
+										<div class="fl" id="star">
+											
+										</div>
+									</div>
+								</div>
+								<div class="eval_2 tub fl mt10">
+									<textarea placeholder="请写下对商品的评价"></textarea>
+								</div>
+								<div class="eval_3 tub fl">
+									<div class="eval_01">
+										<input type="file" />
+										<i></i>
+										<p>最多3张</p>
+									</div>
+								</div>
+							</div>
+							<div class="ad_01 bor1 oh p10">
+								<i class="cart_2"></i>
+								<div class="ad_01_1 pt10">
+									<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+									<div class="eval_1 mt15">
+										<p class="fl">评价：</p>
+										<div class="fl" id="star1">
+											
+										</div>
+									</div>
+								</div>
+								<div class="eval_2 tub fl mt10">
+									<textarea>很喜欢这个商品。</textarea>
+								</div>
+								<div class="eval_3 tub fl">
+									<div class="eval_01 fl">
+										<input type="file" />
+										<i></i>
+										<p>最多3张</p>
+									</div>
+									<div class="fl eval_02">
+										<i class="cart_2"></i>
+										<i class="cart_2"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			
+			
+			<!--最后-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="text-center mt50">
+						<input type="submit" value="提交评价" class="last"/>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.raty.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var str = 1
+	$('.eval_1 i').click(function(){
+		if (str==1) {
+			$(this).addClass('on');
+			str=2;
+		} else{
+			$(this).removeClass('on');
+			str = 1;
+		}
+		
+	})
+//	$('#star').style.width = '0';
+	$('#star').raty();
+	$('#star1').raty({ score: 2 });
+</script>
+

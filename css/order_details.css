@@ -1,0 +1,14 @@
+/*<!--订单状态-->*/
+#z_t .btn{
+	display: block;
+    border: 1px solid #ff689b;
+    border-radius: 24px;
+        padding: 5px 15px;
+}
+#zui_h a{
+	    padding: 10px 60px;
+    border: 1px solid #C9C9C9;
+    border-radius: 40px;
+    background: #fff;
+    color: #C9C9C9;
+}

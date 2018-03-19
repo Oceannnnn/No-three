@@ -1,0 +1,279 @@
+/*返回*/
+#fan{
+	background: #393A3E;
+}
+#fan .g_r{
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+	}
+#fan .g_r img{
+	width: 100%;
+	}
+/*头部开始*/
+#tou{
+	position: relative;
+	background: url(../images/1-个人中心_01_06.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 90px;
+}
+#tou .zhanghu{
+	    bottom: -13px;
+    position: absolute;
+    right: 10px;
+	}
+#tou .toux{
+	    margin-left: 10px;
+    width: 70px;
+    height: 60px;
+    float: left;
+}
+#tou .jifen{
+	    padding: 12px 0px 0px 10px;
+}
+#tou .toux img{
+	border-radius: 50%;
+    width: 100%;
+}
+#head .dingdan{
+	font-size: 16px;
+	      padding: 2px 0px 2px 22px;
+}
+#head .dingdan i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/1-个人中心_11.jpg);
+	 background-size: cover;
+}
+#head .dingdan p{
+	    padding: 6px;
+}
+#head .toux{
+    width: 16%;
+    display: block;
+    border-radius: 50px;	
+}
+#head li{
+	width: 25%;
+    float: left;
+    text-align: center;
+}
+.ge{
+	display: inline-block;
+    width: 31px;
+    height: 29px;
+}
+#head .di{
+    background: url(../images/1-个人中心_13-14.jpg);
+    background-size: cover;
+}
+#head .ds{
+	background: url(../images/1-个人中心_14-19.jpg);
+    background-size: cover;
+}
+#head .dr{
+   background: url(../images/1-个人中心_27.jpg);
+    background-size: cover;
+}
+#head .dw{
+    	background: url(../images/1-个人中心_17-17.jpg);
+    background-size: cover;
+}
+#head a p{
+	color: #999;
+}
+/*订单开始*/
+#bodyD .sh{
+	border-top: 1px solid #e5e5e5;
+}
+    
+#bodyD .dd{
+	    position: absolute;
+    top: 5px;
+    left: 15px;
+	 display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+#bodyD .link{
+	padding: 2px;
+	display: block;
+	line-height: 40px;
+ border-bottom: 1px solid #e5e5e5;
+ position: relative;
+}
+#bodyD .dy{
+	background: url(../images/1-个人中心_22-25.jpg);
+	background-size: cover;
+}
+#bodyD .de{
+	background: url(../images/1-个人中心_26.jpg);
+	background-size: cover;
+}
+#bodyD span{
+	padding-left: 55px;
+}
+#bodyD a{
+	color: #333;
+	font-size: 16px;
+}
+#bodyD .sc{
+    background: url(../images/1-个人中心_29-32.jpg);
+	background-size: cover;
+}
+#bodyD .dz{
+    	background: url(../images/1-个人中心_32-34.jpg);
+	background-size: cover;
+}
+#bodyD .xg{
+    background: url(../images/1-个人中心_34-37.jpg);
+	background-size: cover;	
+}
+#bodyD .dj{
+    background: url(../images/1-个人中心_36-39.jpg);
+	background-size: cover;	
+}
+/*<!--最后开始-->*/
+#footS .me{
+	background: url(../images/1-个人中心_56.jpg);
+	background-size: cover;
+}
+#footS .sy{
+	background: url(../images/1-个人中心_44-47.jpg);
+	background-size: cover;
+}
+#footS .f_l{
+	background: url(../images/1-个人中心_46-49.jpg);
+	background-size: cover;
+}
+#footS .g_W{
+	background: url(../images/1-个人中心_53.jpg);
+	background-size: cover;background-position: -2px;
+}
+
+.pd {
+     padding: 0 17px; 
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+.pd {
+     padding: 0; 
+}
+#tou{
+	height: 200px;
+}
+#tou .toux {
+    margin-left: 49px;
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-top: 35px;
+}
+#tou .jifen {
+    font-size: 16px;
+    padding: 58px 0px 0px 14px;
+}
+#tou .zhanghu{
+	    position: absolute;
+    float: right;
+    bottom: -46px;
+    right: 60px;
+    /* margin-top: 120px; */
+    font-size: 16px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+	#head .toux{
+    	width: 7%;
+    }
+    .pd {
+     padding: 0 ; 
+}
+#tou{
+	height: 200px;
+}
+#tou .jifen {
+    font-size: 16px;
+    padding: 58px 0px 0px 14px;
+}
+#tou .toux {
+    margin-left: 49px;
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-top: 35px;
+}
+#tou .zhanghu{
+	    position: absolute;
+    float: right;
+    bottom: -46px;
+    right: 60px;
+    /* margin-top: 120px; */
+    font-size: 16px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+#tou{
+	height: 200px;
+}
+#tou .toux {
+    margin-left: 49px;
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-top: 35px;
+}
+#tou .jifen {
+    font-size: 16px;
+    padding: 58px 0px 0px 14px;
+}
+#tou .zhanghu{
+	    position: absolute;
+    float: right;
+    bottom: -46px;
+    right: 60px;
+    /* margin-top: 120px; */
+    font-size: 16px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

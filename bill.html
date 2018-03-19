@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>发票信息</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bill.css"/>
+	</head>
+	<body class="bgw">
+		<div class="container-fluid p0">
+			
+			
+			
+			<!--发票信息-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="bill">
+						<div class="bill_1 bgw p10 bor1">
+							<p>发票类型</p>
+							<div class="b_1 mt10">
+								<a href="javascript:;" class="bodyC">
+									<i class="mo active"></i>
+									<span>单位</span>
+								</a>
+								<a href="javascript:;" class="bodyC">
+									<i class="mo"></i>
+									<span>个人</span>
+								</a>
+							</div>
+						</div>
+						<div class="bill_1 bgw p10 bor1 pr oh">
+							<p>发票抬头</p>
+							<div class="b_1 mt10">
+								<a href="javascript:;" class="bodyC">
+									<i class="mo active"></i>
+									<span>单位</span>
+								</a>
+								<a href="javascript:;" class="bodyC">
+									<i class="mo"></i>
+									<span>公司</span>
+								</a>
+								<input type="text" placeholder="请填写公司名称" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			
+			<!--保存-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="new_add" class="text-center mt50">
+						<input type="submit" form="box" value="保存" class="last"/>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	var cc = 1;
+	$('.bodyC').click(function(){
+		 if (cc==1) {
+          $(this).find('.mo').addClass('active').parents('.bodyC').siblings('.bodyC').find('.mo').removeClass('active');
+          cc = 2;
+        }else {
+           $(this).find('.mo').removeClass('active');
+          cc = 1;
+        }
+		
+	})
+</script>

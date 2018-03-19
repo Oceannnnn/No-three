@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>购物车（有商品）</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			
+			
+			<div id="cart">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="ad_3 fl tub bgw">
+							<div class="ad_01 bor1 oh p10">
+								<a href="javascript:;" class="bodyC">
+									<i class="mo"></i>
+								</a>
+								<i class="cart_1"></i>
+								<div class="ad_01_1 pt10">
+									<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+									<p class="pk mt5">￥200.00</p>
+									<div class="form-group mt10">
+									    <div class="input-group">
+									      <div class="input-group-addon c3 jian">-</div>
+									      <input type="text" class="form-control text-center" id="exampleInputAmount" placeholder="1">
+									      <div class="input-group-addon c3 jia">+</div>
+									    </div>
+									</div>
+								</div>
+								<a href="javascript:;" class="shan_1 fr">
+									<i class="shan"></i>
+									<div class="shan_2">
+										<span>删除</span>
+									</div>
+								</a>
+							</div>
+							<div class="ad_01 bor1 oh p10">
+								<a href="javascript:;" class="bodyC">
+									<i class="mo"></i>
+								</a>
+								<i class="cart_1"></i>
+								<div class="ad_01_1 pt10">
+									<p class="a_1">韩都衣舍秋冬新款女装长袖宽松款型镂空图案长袖设计舒适面料宽松图案镂空针织衫</p>
+									<p class="pk mt5">￥200.00</p>
+									<div class="form-group mt10">
+									    <div class="input-group">
+									      <div class="input-group-addon c3 jian">-</div>
+									      <input type="text" class="form-control text-center" id="exampleInputAmount" placeholder="1">
+									      <div class="input-group-addon c3 jia">+</div>
+									    </div>
+									</div>
+								</div>
+								<a href="javascript:;" class="shan_1 fr">
+									<i class="shan"></i>
+									<div class="shan_2">
+										<span>删除</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<!--合计开始-->
+			<div id="bodyH">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="javascript:;" class="bodyC all fl">
+							<i class="mo"></i>
+							<p class="fl pt10">全选</p>
+						</a>
+						<div class="fl p10">
+							<p class="f16">合计： 
+								<span class="f16 pk">￥00.00</span>
+							</p>
+							<p class="c9">(共
+								<span>0</span>
+								件,不含运费)
+							</p>
+						</div>
+						<div class="price_3">
+							<a href="">结算（0）</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--合计结束-->
+			
+			<!--最后开始-->
+			<nav id="footS" class="navbar-fixed-bottom">
+				<div class="row text-center">
+					<a href="index.html" class="col-xs-3 c9">
+						<i class="zhi sy"></i>
+						<p>首页</p>
+					</a>
+					<a href="classify.html" class="col-xs-3 c9">
+						<i class="zhi f_l"></i>
+						<p>分类</p>
+					</a>
+					<a href="cart.html" class="col-xs-3 pk">
+						<i class="zhi g_W"></i>
+						<p>购物车</p>
+					</a>
+					<a href="user_index.html" class="col-xs-3 c9">
+						<i class="zhi me"></i>
+						<p>我</p>
+					</a>
+				</div>	
+			</nav>
+			
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	var a = 1;
+	$('.jia').click(function(){
+		a++;
+		$(this).siblings('.text-center').prop('placeholder',a);
+		
+	})
+	$('.jian').click(function(){
+		a--;
+		if(a<1){
+			a=1;
+		}
+		$(this).siblings('.text-center').prop('placeholder',a);
+		
+	})
+	$('.bodyC').click(function(){
+		 if (a==1) {
+          $(this).find('.mo').addClass('active');
+          a = 2;
+        }else {
+           $(this).find('.mo').removeClass('active');
+          a = 1;
+        }
+		
+	})
+	$('.all').click(function(){
+		 if (a==2) {
+          $(this).find('.mo').addClass('active');
+          $('.bodyC .mo').addClass('active');
+          a = 1;
+        }else {
+           $(this).find('.mo').removeClass('active');
+           $('.bodyC .mo').removeClass('active');
+          a = 2;
+        }
+		
+	})
+	
+	$('.shan_1').click(function(){
+		 $(this).parents('.ad_01').hide()
+		
+	})
+</script>

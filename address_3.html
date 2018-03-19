@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>修改地址</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/address.css"/>
+	</head>
+	<body class="bg">
+		<div class="container-fluid p0">
+			
+			
+			
+			
+			<!--增加地址-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="new_add_1">
+						<form action="" method="post" id="box">
+						 <input type="text" class="form-control" placeholder="请填写收货人地址">
+						 <input type="text" class="form-control" placeholder="请填写手机号码">
+						 <input type="button" class="form-control xuan_1"  data-toggle='modal' data-target = "#hg" data-backdrop = "static" value="省、市、区                                                                                                                                                                                                                                                                                                                                                                            >">
+						 <input type="text" class="form-control" placeholder="请填写详细地址">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="hg" tabindex="-1">   
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button class="close" data-dismiss = "modal">
+							<span>&times;</span>
+						</button>
+						<div class='address'>
+					        <ul>
+					          <li>
+					    		<span class='word'>请选择地区</span>
+					            <div class="beijing" id="dre">
+					              <table>
+					                <tr>
+					                  <td><a href="#" class="bei1">北京</a></td>
+					                  <td><a href="#" class="bei2">上海</a></td>
+					                  <td><a href="#" class="bei2">天津</a></td>
+					                  <td><a href="#" class="bei2">重庆</a></td>
+					                  <td><a href="#" class="bei2">河北</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">山西</a></td>
+					                  <td><a href="#" class="bei2">河南</a></td>
+					                  <td><a href="#" class="bei2">连宁</a></td>
+					                  <td><a href="#" class="bei2">吉林</a></td>
+					                  <td><a href="#" class="bei2">黑龙江</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">内蒙古</a></td>
+					                  <td><a href="#" class="bei2">江苏</a></td>
+					                  <td><a href="#" class="bei2">山东</a></td>
+					                  <td><a href="#" class="bei2">安徽</a></td>
+					                  <td><a href="#" class="bei2">浙江</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">福建</a></td>
+					                  <td><a href="#" class="bei2">湖北</a></td>
+					                  <td><a href="#" class="bei2">湖南</a></td>
+					                  <td><a href="#" class="bei2">广东</a></td>
+					                  <td><a href="#" class="bei2">广西</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">江西</a></td>
+					                  <td><a href="#" class="bei2">四川</a></td>
+					                  <td><a href="#" class="bei2">海南</a></td>
+					                  <td><a href="#" class="bei2">贵州</a></td>
+					                  <td><a href="#" class="bei2">云南</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">西藏</a></td>
+					                  <td><a href="#" class="bei2">陕西</a></td>
+					                  <td><a href="#" class="bei2">甘肃</a></td>
+					                  <td><a href="#" class="bei2">青海</a></td>
+					                  <td><a href="#" class="bei2">宁夏</a></td>
+					                </tr>
+					                <tr>
+					                  <td><a href="#" class="bei2">新疆</a></td>
+					                  <td><a href="#" class="bei2">港澳</a></td>
+					                  <td><a href="#" class="bei2">台湾</a></td>
+					                  <td><a href="#" class="bei2">钓鱼岛</a></td>
+					                  <td><a href="#" class="bei2">海外</a></td>
+					                </tr>
+					              </table>
+					            </div>
+					          </li>
+					        </ul>
+			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+			
+			
+			
+			
+			<!--新增地址-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="new_add" class="text-center mt50">
+						<input type="reset" form="box" value="删除该地址" class="del"/>
+						<input type="submit" form="box" value="保存" class="save"/>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
+<script src="js/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+

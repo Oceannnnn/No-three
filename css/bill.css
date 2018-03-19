@@ -1,0 +1,71 @@
+#bill .bill_1 .mo{
+    display: inline-block;
+    width: 16px;
+    background: #888383;
+    height: 16px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+#bill .bill_1 .mo.active{
+	background: url(../images/address_03.jpg) no-repeat;
+    background-size: 26px;
+        background-position: -7px -4px;
+}
+.bodyC span{
+	float: left;
+}
+#bill .bill_1 .b_1{
+    background: #f7f7f7;
+    padding: 10px;
+    overflow: hidden;
+}
+#bill .bill_1 .b_1 a{
+	    margin-right: 30px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+}
+#bill .bill_1 input{
+    padding: 5px 2px;
+    font-size: 14px;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+#new_add input{
+	padding: 11px 80px;
+    background: white;
+    border: 1px solid #FF689B;
+    color: #FF689B;
+    border-radius: 26px;
+}
+
+.bill_1 input[type=text] {
+   
+}
+
+@media (min-width: 768px) { 
+#bill .bill_1 input{
+	left: 218px;
+    bottom: 17px;
+}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {  
+#bill .bill_1 input{
+	left: 218px;
+    bottom: 17px;
+}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+#bill .bill_1 input{
+	left: 218px;
+    bottom: 17px;
+}
+ }
